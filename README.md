@@ -10,7 +10,7 @@ Patterned after `~/.openclaw/extensions/superpack-snitch/`.
 
 ## Behavior
 - Filters by `agentId` (configurable via `targetAgentId`).
-- Copies `workspace/runs/<runId>/in` from host agent workspace into the sandbox root.
+- Copies `runs/<sessionKey>/in` from host agent workspace into the sandbox `./task/`.
 - Writes `injection-manifest.json` into the sandbox root.
 
 ## Config (example)
@@ -19,8 +19,7 @@ Patterned after `~/.openclaw/extensions/superpack-snitch/`.
   "plugins": {
     "config": {
       "superpack-workspace-filter": {
-        "targetAgentId": "code-only",
-        "runId": "dev-run"
+        "targetAgentId": "code-only"
       }
     }
   }
