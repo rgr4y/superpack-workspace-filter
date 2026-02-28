@@ -1,0 +1,12 @@
+{
+  "id": "superpack-workspace-filter",
+  "name": "Superpack Workspace Filter",
+  "description": "Example sandbox_workspace_ready injector",
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "targetAgentId": { "type": "string" }
+    }
+  }
+}
