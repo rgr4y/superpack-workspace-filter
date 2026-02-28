@@ -17,9 +17,12 @@ Patterned after `~/.openclaw/extensions/superpack-snitch/`.
 ```json
 {
   "plugins": {
-    "config": {
+    "entries": {
       "superpack-workspace-filter": {
-        "targetAgentId": "code-only"
+        "enabled": true,
+        "config": {
+          "targetAgentId": "code-only"
+        }
       }
     }
   }
