@@ -1,6 +1,6 @@
 {
   "name": "superpack-workspace-filter",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
   "main": "src/index.ts",
   "files": [
@@ -9,6 +9,11 @@
   ],
   "scripts": {
     "test": "vitest run"
+  },
+  "openclaw": {
+    "extensions": [
+      "./src/index.ts"
+    ]
   },
   "keywords": ["openclaw", "plugin", "sandbox"],
   "license": "MIT",
