@@ -1,7 +1,6 @@
 {
   "name": "superpack-workspace-filter",
-  "version": "0.1.0",
-  "private": true,
+  "version": "0.0.1",
   "type": "module",
   "main": "src/index.ts",
   "files": [
